@@ -1,5 +1,5 @@
 # plus
-For all your adding needs, up to numbers of about 250 because otherwise the maximum recursion depth is exceeded.
+For all your adding needs, up to numbers of about 450 because otherwise the maximum recursion depth is exceeded.
 
 ## Installing
 
