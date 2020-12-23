@@ -7,7 +7,7 @@ The package can be installed using `pip install pluspy`.
 
 ## Example
 
-To get the sum of two **positive integers** `a` and `b`, you would use:
+To get the sum of two **positive integers** `a` and `b`, you would use `plus(a, b)`:
 
 ```
 >>> from plus import plus
