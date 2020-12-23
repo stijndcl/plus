@@ -5,10 +5,20 @@ def plus(first, second):
     """
     Main function that checks certain conditions
     """
+    # Check if both arguments are integers
+    if not (isinstance(first, int)):
+        raise TypeError(f"First argument ({first}) is not an integer.")
+
+    if not (isinstance(second, int)):
+        raise TypeError(f"Second argument ({second}) is not an integer.")
+
     # The function does -1 until both arguments reach 0,
     # so this isn't possible for negative integers
-    assert (isinstance(first, int) and isinstance(second, int)), "Arguments must be positive integers."
-    assert (first >= 0 and second >= 0), "Arguments must be positive integers."
+    if first < 0:
+        raise ValueError(f"First argument ({first}) is not a negative integer.")
+
+    if second < 0:
+        raise ValueError(f"Second argument ({second}) is not a negative integer.")
 
     return _plusRecursive(first, second)
 
