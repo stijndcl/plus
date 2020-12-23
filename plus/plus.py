@@ -5,7 +5,8 @@ def plus(first, second):
     """
     Main function that checks certain conditions
     """
-    # The function does -1 until both arguments reach 0, so this isn't possible for negative integers
+    # The function does -1 until both arguments reach 0,
+    # so this isn't possible for negative integers
     assert (isinstance(first, int) and isinstance(second, int)), "Arguments must be positive integers."
     assert (first >= 0 and second >= 0), "Arguments must be positive integers."
 
