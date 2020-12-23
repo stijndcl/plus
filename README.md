@@ -5,6 +5,11 @@ For all your adding needs, up to numbers of about 450 because otherwise the maxi
 
 The package can be installed using `pip install pluspy`.
 
+## Pypi Page
+
+Here is the link to the pypi page:
+https://pypi.org/project/pluspy/0.0.3/
+
 ## Example
 
 To get the sum of two **positive integers** `a` and `b`, you would use `plus(a, b)`:
