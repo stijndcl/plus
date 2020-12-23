@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="stijndcl",
     author_email="declercq.stijn@outlook.com",
-    description="For all your addition needs, up to numbers of 250.",
+    description="For all your adding needs, up to numbers of 250.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/stijndcl/plus",

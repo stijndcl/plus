@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pluspy
+Version: 0.0.1
+Summary: For all your addition needs, up to numbers of 250.
+Home-page: https://github.com/stijndcl/plus
+Author: stijndcl
+Author-email: declercq.stijn@outlook.com
+License: UNKNOWN
+Description: # plus
+        For all your adding needs, up to numbers of about 250 because otherwise the maximum recursion depth is exceeded.
+        
+        ## FAQ
+        
+        ### What is plus?
+        Plus was made to redefine the '+'operator in a recursive way, without using the '+'-operator itself.
+        
+        ### Why?
+        This library was inspired by the enormous amount of `isEven` and `isOdd`-type memes, including one where '+' was defined by hardcoding every possible combination of the first 100-or-so numbers.
+        
+        It was not made with the intention of being used (obv.), but rather to see how ridiculous I could make this.
+        
+        The last 5 lines (`while`-loop & `bitshift`) by themselves are actually enough to add two numbers together (and it doesn't exceed the maximum recursion depth instantly), which was also done for this very reason. That part being in there adds to the overall idea.
+        
+        ### Why is there a cache?
+        Well you see, when using numbers above 10 it started to get a bit slow. Calculating `plus(50, 20)` had been running for half an hour, and wasn't showing any signs of stopping any time soon.
+        
+        This meant I had to introduce `dynamic programming` to speed it up a bit, and store results of calculations that had been made before.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
