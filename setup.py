@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pluspy",
-    version="0.0.1",
+    version="0.0.2",
     author="stijndcl",
     author_email="declercq.stijn@outlook.com",
     description="For all your adding needs, up to numbers of 250.",
