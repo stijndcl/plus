@@ -1,6 +1,6 @@
 import random
 import unittest
-from plus.plus import plus
+from plus import plus
 
 
 class TestInvalid(unittest.TestCase):
