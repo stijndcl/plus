@@ -1,6 +1,23 @@
 # plus
 For all your adding needs, up to numbers of about 250 because otherwise the maximum recursion depth is exceeded.
 
+## Installing
+
+The package can be installed using `pip install pluspy`.
+
+## Example
+
+To get the sum of two **positive integers** `a` and `b`, you would use:
+
+```
+>>> from plus import plus
+
+>>> plus(2, 5)
+7
+```
+
+Keep in mind the module is called `plus`, _not_ `pluspy`.
+
 ## FAQ
 
 ### What is plus?
