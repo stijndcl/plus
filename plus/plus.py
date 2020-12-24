@@ -73,7 +73,8 @@ def _isPresent(first, second):
     """
     global cache
 
-    return first in cache and second in cache[first]
+    a, b = min(first, second), max(first, second)
+    return a in cache and b in cache[a]
 
 
 def _add(first, second, result):
@@ -82,7 +83,8 @@ def _add(first, second, result):
     """
     global cache
 
-    cache[first] = {second: result}
+    a, b = min(first, second), max(first, second)
+    cache[a] = {b: result}
 
 
 def _get(first, second):
@@ -91,4 +93,5 @@ def _get(first, second):
     """
     global cache
 
-    return cache[first][second]
+    a, b = min(first, second), max(first, second)
+    return cache[a][b]
