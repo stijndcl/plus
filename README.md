@@ -1,4 +1,16 @@
 # plus
+
+<p>
+    <a href="https://pypi.org/project/pluspy/0.0.3/">
+    <img src="https://img.shields.io/pypi/v/pluspy?color=blue" /></a>
+    <a href="https://pypistats.org/packages/pluspy">
+    <img src="https://img.shields.io/pypi/dm/pluspy?color=blue" />
+    </a>
+    <a href="https://pypistats.org/packages/pluspy">
+    <img src="https://img.shields.io/pypi/pyversions/pluspy" />
+    </a>
+</p>
+
 For all your adding needs, up to numbers of about 450 because otherwise the maximum recursion depth is exceeded.
 
 ## Installing
