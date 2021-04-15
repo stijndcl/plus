@@ -15,10 +15,10 @@ def plus(first, second):
     # The function does -1 until both arguments reach 0,
     # so this isn't possible for negative integers
     if first < 0:
-        raise ValueError(f"First argument ({first}) is not a negative integer.")
+        raise ValueError(f"First argument ({first}) is a negative integer.")
 
     if second < 0:
-        raise ValueError(f"Second argument ({second}) is not a negative integer.")
+        raise ValueError(f"Second argument ({second}) is a negative integer.")
 
     return _plusRecursive(first, second)
 
